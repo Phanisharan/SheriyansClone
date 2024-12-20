@@ -5,8 +5,8 @@ function requestCallback(){
     document.body.appendChild(divisionTwo);
     divisionOne.style.width = '100%';
     divisionOne.style.height = '1200px';
-    divisionOne.style.backgroundColor = 'transparent';
-    divisionOne.style.filter = 'blur(20px)';
+    divisionOne.style.backgroundColor = 'black';
+
     divisionTwo.style.width = '300px';
     divisionTwo.style.height = '300px';
     divisionTwo.style.backgroundColor = 'white';

@@ -63,3 +63,46 @@
     left: 3px;
     border-radius: 10px;
 }
+
+
+
+/* Adjust Course Cards */
+@media screen and (max-width: 768px) {
+    .courses {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .viewdetails_buttons {
+        padding: 8px 50px;
+        font-size: 18px;
+    }
+
+    #explore_courses {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #courses_button {
+        width: 80%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #home_heading_content {
+        font-size: 2.5em;
+    }
+
+    #user_engagements {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 5%;
+    }
+
+    .engagements {
+        font-size: 20px;
+    }
+}
